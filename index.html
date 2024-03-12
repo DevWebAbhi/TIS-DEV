@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIS DEV</title>
+    <style>
+        body{
+            max-width: 1728px;
+            margin: auto;
+        }
+
+        .top-main-container{
+            display: flex;
+        }
+
+        .top-left-title{
+            width: 41.625rem;
+            margin-top: 4.875re,;
+            margin-left: 7.25rem;
+        }
+
+
+        .top-left-title>h1 {
+            color: #000;
+            font-family: Mirador;
+            font-size: 40px;
+            font-style: italic;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 0.8px;
+        }
+
+        .top-left-quotes{
+            width: 28.5rem;
+            margin-left: 7.25rem;
+           
+        }
+
+        .top-left-quotes>p{
+            color: #60BDBB;
+            font-family: "FONTSPRING DEMO - Darwin Pro";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.8px;
+            border: 4px solid rgb(233, 65, 93);
+        }
+
+        .image-pool{
+            
+            background-image: url("Assets/pool.png");
+            width: 35.188rem;
+            height: 22rem;
+            flex-shrink: 0;
+            border-radius: 15px;
+            display: flex;
+            margin-top: 130px;
+            margin-left: 10.438rem;
+            
+        }
+
+        .image-pool>div{
+            background: rgba(0, 0, 0, 0.50);
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .image-pool h3 {
+            color: #FFF;
+            font-family: "TT Chocolates Trl";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.8px;
+        }
+
+        .image-pool p{
+            color: #E1E1E1;
+            font-family: "TT Chocolates Trl";
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.34px;
+        }
+
+        .image-pool>div>div:first-child{
+            width: 13.188rem;
+            margin-left: 2.688rem;
+            margin-top: 235px;
+        }
+
+        .image-pool>div>div:nth-child(2){
+            width: 15.063rem;
+            margin-left: 2.938rem;
+            margin-top: -40px;
+        }
+
+        .logo-image{
+            
+        }
+        .logo-image>img{
+            width: 10rem;
+            height: 159px;
+        }
+
+        .image-tycondo{
+            background-image: url("Assets/tycondo.png");
+            width: 35.188rem;
+            height: 22rem;
+            flex-shrink: 0;
+            border-radius: 15px;
+            display: flex;
+            margin-top: 105px;
+            margin-left: 9.438rem;
+        }
+
+        .image-tycondo>div{
+            background: rgba(0, 0, 0, 0.50);
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .image-tycondo h3 {
+            color: #FFF;
+            font-family: "TT Chocolates Trl";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.8px;
+        }
+
+        .image-tycondo p{
+            color: #E1E1E1;
+            font-family: "TT Chocolates Trl";
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.34px;
+        }
+
+        .image-tycondo>div>div:first-child{
+            width: 13.188rem;
+            margin-left: 2.688rem;
+            margin-top: 235px;
+        }
+
+        .image-tycondo>div>div:nth-child(2){
+            width: 15.063rem;
+            margin-left: 2.938rem;
+            margin-top: -40px;
+        }
+
+        .image-horse-riding{
+            background-image: url("Assets/tycondo.png");
+            width: 35.188rem;
+            height: 22rem;
+            flex-shrink: 0;
+            border-radius: 15px;
+            display: flex;
+            margin-top: -49px;
+            margin-left: 12.125rem;
+        }
+
+        .image-horse-riding>div{
+            background: rgba(0, 0, 0, 0.50);
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .image-horse-riding h3 {
+            color: #FFF;
+            font-family: "TT Chocolates Trl";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.8px;
+        }
+
+        .image-horse-riding p{
+            color: #E1E1E1;
+            font-family: "TT Chocolates Trl";
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.34px;
+        }
+
+        .image-horse-riding>div>div:first-child{
+            width: 13.188rem;
+            margin-left: 2.688rem;
+            margin-top: 235px;
+        }
+
+        .image-horse-riding>div>div:nth-child(2){
+            width: 15.063rem;
+            margin-left: 2.938rem;
+            margin-top: -40px;
+        }
+
+        .activity-button{
+            width: 26.063rem;
+            border-radius: 34.5px;
+            border: 2.5px solid #DBC79F;
+            height: 69px;
+            display: flex;
+            margin-top: 182px;
+            margin-left: 11.188rem;
+
+        }
+
+        .activity-button>div:first-child{
+            margin-left: 2.688rem;
+            margin-top: 1.131rem;
+            width: 16.625rem;
+            color: #5E5E5E;
+            font-family: "TT Chocolates Trl";
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.84px;
+        }
+
+        .activity-button>div:nth-child(2)>img{
+            margin-left: 2.688rem;
+            margin-top: 1.131rem;
+            width: 3.6rem;
+            height: 2.25rem;
+        }
+
+        .card-arrow-block{
+            margin-top: -32.12px;
+            width: max-content;
+        }
+
+        .card-arrow-image{
+           
+            width: 40.115px;
+            height: 49.938px;
+            transform: rotate(-90deg);
+            flex-shrink: 0;
+           
+        }
+
+        .second-block{
+            margin-top: 176px;
+        }
+
+        .family-block{
+            background-image: url("Assets/family.png");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 63.25rem;
+            border-radius: 25px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .family-block>div{
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            background: #000;
+            border-radius: 25px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+
+        .family-block>div>div {
+            background: url("Assets/play.png"), lightgray 50% / cover no-repeat;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="top-main-container" >
+    
+        <div class="top-left-container">
+            <div class="top-left-title">
+                <h1>
+                    Our commitment to all-round development shines in diverse extracurricular activities.
+                </h1>
+            </div>
+            <div class="top-left-quotes">
+                <p>
+                    ( Our Students love that! )
+                </p>
+            </div>
+            <div class="image-pool">
+                <div>
+                   <div><h3>Swimming</h3></div>
+                   <div><p>22 Acres, Pollution- Free, World-Class.</p></div>
+                   <div class="card-arrow-block">
+                    <img src="Assets/cardarrow.png" alt="card-arrow-image" class="card-arrow-image">
+                   </div>
+                </div>
+            </div>
+            <div class="activity-button">
+                <div>
+                    SEE ALL ACTIVITIES
+                </div>
+                <div>
+                    <img src="Assets/arrow.png" alt="arrow-image" >
+                </div>
+            </div>
+           </div> 
+    <div>
+        <div class="image-tycondo">
+            <div>
+               <div><h3>Taekwondo</h3></div>
+               <div><p>22 Acres, Pollution- Free, World-Class.</p></div>
+               <div class="card-arrow-block">
+                <img src="Assets/cardarrow.png" alt="card-arrow-image" class="card-arrow-image">
+               </div>
+            </div>
+        </div>
+        <div class="logo-image">
+            <img src="Assets/logo.png" alt="logo-image">
+        </div>
+        <div class="image-horse-riding">
+            <div>
+               <div><h3>Taekwondo</h3></div>
+               <div><p>22 Acres, Pollution- Free, World-Class.</p></div>
+               <div class="card-arrow-block">
+                <img src="Assets/cardarrow.png" alt="card-arrow-image" class="card-arrow-image">
+               </div>
+            </div>
+        </div>
+    </div>
+    
+   </div>
+
+   <div class="second-block">
+    <div class="family-block">
+        <div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    
+</script>
