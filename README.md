@@ -33,3 +33,7 @@ TIS DEV/
 
 - Open it in your browser by copying the location of index.html file.
 - Or open it with live server
+
+## Deployed Link
+
+- https://65f197d5e4584e10eed7e168--luxury-pithivier-6cd10f.netlify.app/
