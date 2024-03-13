@@ -792,6 +792,7 @@ margin-left: 2.563rem;
     height: 32.313rem;
     display: flex;
     background: #F8F5F0;
+    margin-top: 144px;
 }
 
 .ninth-class>div:first-child{
@@ -1030,8 +1031,264 @@ line-height: normal;
     width: 108rem;
 }
 
+.tenth-block{
+    display: flex;
+}
+
+.tenth-block>div:first-child>div:first-child{
+    width: 31.125rem;
+    margin-top: 270px;
+    margin-left: 18.5rem;
+}
+
+.from-the-parent{
+    color: #000;
+    font-family: "URW DIN Arabic";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+.parents{
+    color: #B90124;
+    font-family: Mirador;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+.tenth-block>div:first-child>div:nth-child(2){
+    display: flex;
+    margin-left: 6.25rem;
+}
+
+.tenth-block-paragraph{
+    color: #000;
+    font-family: "TT Chocolates Trl";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-left: 6.75rem;
+    margin-top: 93.5px;
+    width: 50.688rem;
+}
 
 
+.tenth-block-flex-second-block{
+    display: flex;
+    
+}
+.tenth-block-flex-second-block>div:nth-child(1){
+    position: relative;
+    right: -10rem;
+    top: 84px;
+    z-index: 1;
+}
+.tenth-block-flex-second-block>div:nth-child(2){
+    width: 28.875rem;
+    border-radius: 74px 0 0 74px;
+    top: 100px;
+    background: #B90124;
+    position: relative;
+    left: -5rem;
+    
+    
+}
 
+.eleventh-first-block{
+display: flex;
+padding-top: 7rem;
+}
+
+.find-your{
+    color: #000;
+    text-align: center;
+    font-family: "Goudy Old Style";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 22.813rem;
+    margin-top: 85px;
+    
+}
+
+.focus{
+    color: #A60028;
+    text-align: center;
+    font-family: "Goudy Old Style";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 31.688rem;
+}
+
+.line-text{
+    display: flex;
+    margin-top: 4.938rem;
+    margin-left: 2.563rem;
+}
+
+.line-text>div:nth-child(1){
+    width: 20px;
+    height: 1px;
+    background: #000;
+    margin-top: 13.31px;
+}
+
+.line-text>div:nth-child(2){
+    color: #000000;
+    text-align: center;
+    font-family: "TT Chocolates";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: max-content;
+    margin-left: 0.8rem;
+}
+
+.line-type2-text{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 2.563rem;
+}
+
+.line-type2-text>div:nth-child(1){
+    width: 20px;
+    height: 1px;
+    background: #000;
+    margin-top: 13.31px;
+}
+
+.line-type2-text>div:nth-child(2){
+    color: #000000;
+    text-align: center;
+    font-family: "TT Chocolates";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: max-content;
+    margin-left: 0.8rem;
+}
+
+.line-type3-text{
+    display: flex;
+    margin-top: 128px;
+    margin-left: 2.563rem;
+}
+
+.line-type3-text>div:nth-child(1){
+    width: 20px;
+    height: 1px;
+    background: #000;
+    margin-top: 13.31px;
+}
+
+.line-type3-text>div:nth-child(2){
+    color: #000000;
+    text-align: center;
+    font-family: "TT Chocolates";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: max-content;
+    margin-left: 0.8rem;
+}
+
+.last-div{
+    background-image: url("../Assets/map.png");
+    width: 100%;
+    min-height: 750px;
+}
+
+.last-div>div{
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    height: 750px;
+    padding-top: 15rem;
+}
+
+.end-title{
+    margin-left: 32.688rem;
+    color: #FFF;
+    font-family: "Goudy Old Style";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.end-title2{
+    margin-left: 48.438rem;
+    color: #A60028;
+   
+    font-family: "Goudy Old Style";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.end-para{
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Chocolates";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 35.5rem;
+    margin: auto;
+    margin-top: 31px;
+}
+
+.phone-numbers{
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Chocolates";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 24.563rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.end-buttons{
+    width: 59.875rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.end-buttons>div{
+    width: 14.83rem;
+    background-color: #A60028;
+    padding-top: 21.33px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Goudy Old Style";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 21.33px;
+}
 
 
