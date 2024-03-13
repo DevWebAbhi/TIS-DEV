@@ -4,20 +4,22 @@ Welcome to TIS DEV, where design meets innovation to create an immersive online 
 
 ## Folder Structure
 
+```.
 TIS DEV/
 │
 ├── index.html
 │
 ├── Styles/
-│   └── style.css
+│ └── style.css
 │
 ├── Assets/
-│   ├── image1.jpg
-│   ├── image2.png
-│   ├── ...
-│   └── imageN.gif
+│ ├── image1.jpg
+│ ├── image2.png
+│ ├── ...
+│ └── imageN.gif
 │
 └── README.md
+```
 
 ## Technologies Used
 
