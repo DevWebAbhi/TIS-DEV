@@ -1,0 +1,144 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1600px) {
+    /* Sample style for extra large devices */
+    body {
+        font-size: 18px;
+    }
+
+    /* Additional styles for extra large devices */
+    .top-left-title {
+        font-size: 30px;
+    }
+
+    .image-pool,
+    .image-tycondo,
+    .image-horse-riding,
+    .seventh-block-image-pool,
+    .seventh-block-image-tycondo,
+    .seventh-block-second-block-image-tycondo
+     {
+        width: 25rem;
+        margin: 0;
+
+    }
+    .seventh-block-image-tycondo{
+        margin-top: 2rem;
+    }
+
+    .logo-image{
+        margin-left: -15rem;
+    }
+    
+    .top-main-container,.top-left-container{
+    width: min-content;
+    margin: auto;
+    }
+    
+    .family-block{
+        width: 75%;
+        margin: auto;
+    }
+    
+    .activity-button>div:first-child{
+        font-size: 20px;
+    }
+
+    .third-block{
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+
+    .fourth-block-content{
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .fourth-block>div:first-child{
+        margin: auto;
+        width: max-content;
+    }
+    .fourth-block-content{
+        width: max-content;
+        margin: auto;
+    }
+
+    .fifth-block{
+        width: 70%;
+        margin-top: 15rem;
+        margin: auto;
+    }
+    .fifth-block>div{
+        display: block;
+    }
+
+    .fifth-block>div>div:nth-child(2)>div:first-child{
+        margin-top: 2rem;
+    }
+
+    .fifth-block>div>div:first-child img{
+        margin-top: 10rem;
+    }
+
+    .sixth-block{
+        width: 60rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -13rem;
+    }
+
+    .seventh-block-second-block>div:first-child{
+        width: 30rem;
+        font-size: 25px;
+    }
+
+    .seventh-block{
+        width: max-content;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    .ninth-class{
+        display: block;
+    }
+
+    .ninth-class>div:nth-child(2) img{
+        display: none;
+    }
+
+    .ninth-class>div:first-child{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ninth-class-highlights{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fourth-block{
+        margin-bottom: 5rem;
+    }
+
+    .tenth-block{
+        display: block;
+        width: max-content;
+        margin: auto;
+    }
+
+    .eleventh-first-block{
+        
+        width: max-content;
+        margin: auto;
+
+    }
+
+    .find-your{
+        margin: auto;
+        margin-top: 85px;
+    }
+
+    .focus{
+        margin: auto;
+    }
+
+}

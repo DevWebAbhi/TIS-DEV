@@ -1,6 +1,7 @@
 body{
-    max-width: 1728px;
+   
     margin: auto;
+    max-width: 1728px;
 }
 
 .top-main-container{
@@ -252,7 +253,9 @@ body{
 
 .family-block{
     background-image: url("../Assets/family.png");
-    background-repeat: no-repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
     width: 100%;
     height: 63.25rem;
     border-radius: 25px;
@@ -418,6 +421,9 @@ body{
     border-radius: 15px;
     box-shadow: 23px 23px 30px 0px rgba(0, 0, 0, 0.25);
     background-image: url("../Assets/studentswithflag.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fourth-block-second-block>div:nth-child(2)>img:first-child{
@@ -524,7 +530,9 @@ body{
 
 .fifth-block{
     background-image: url("../Assets/blog.png");
-
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
 
     width: 100%;
     height: 41.25rem;
@@ -789,7 +797,7 @@ margin-left: 2.563rem;
 
 .ninth-class{
     width: 100%;
-    height: 32.313rem;
+    min-height: 32.313rem;
     display: flex;
     background: #F8F5F0;
     margin-top: 144px;
@@ -1207,6 +1215,9 @@ padding-top: 7rem;
 
 .last-div{
     background-image: url("../Assets/map.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     min-height: 750px;
 }
@@ -1290,5 +1301,57 @@ padding-top: 7rem;
     line-height: normal;
     padding-bottom: 21.33px;
 }
+
+.nav{
+    padding: 1rem;
+    height:40rem;
+    background-color: #A60028;
+    margin-bottom: 2rem;
+    max-width: 1728px;
+}
+.nav-content{
+    display: flex;
+    width: max-content;
+    margin: auto;
+
+}
+
+.nav-content>div{
+    padding: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-text{
+   
+    float: right;
+    font-size: 150px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 10rem;
+}
+
+.nav-text-at{
+    display: flex;
+}
+
+#nav-line{
+    padding: 0;
+    margin-top: 0.5rem;
+    width: 1px;
+    background-color: white;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
