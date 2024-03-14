@@ -36,4 +36,4 @@ TIS DEV/
 
 ## Deployed Link
 
-- https://65f197d5e4584e10eed7e168--luxury-pithivier-6cd10f.netlify.app/
+- https://65f29202c40002815da10070--soft-elf-7c2c13.netlify.app/
