@@ -1,4 +1,8 @@
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1800px) {
+    .activity-button>div:first-child{
+        font-size: 20px;
+    }  
+}
 @media only screen and (max-width: 1600px) {
     /* Sample style for extra large devices */
     body {
